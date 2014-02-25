@@ -1,0 +1,165 @@
+@charset "utf-8";
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+    
+    font-size: 100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    overflow: hidden;
+    background-color: blue;
+    
+}
+
+.masthead {
+    background-color: rgba(0, 50, 90, .9);
+    overflow: hidden;
+    
+}
+
+.logo {
+    height: auto;
+    width: 10rem;
+    }
+
+img {
+    width: 100%
+    display: block;
+}
+
+.billboard {
+    overflow: hidden;
+    background-image: url(../images/final-fantasy-billboard.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: black;
+    background-size: 40rem;
+}
+
+h1 {
+    margin: 8rem 0;
+    background-color: rgba(0, 50, 90, .9);
+    color: black;
+    font-family: haettenschweiler, sans-serif;
+    font-size: 3rem;
+    padding: 1rem;
+    letter-spacing: .5rem;
+    text-transform: uppercase;
+}
+
+
+p {
+    margin: 1.5rem;
+}
+
+h2 {
+    margin: 2rem;
+    font-size: 3.5rem;
+    color: rgba(0, 50, 90, 100);
+}
+
+figure {
+    margin: .5rem auto .5rem;
+    background-color: rgba( 0, 50, 90, .9);
+    padding: .25rem;
+    width: 84.5%;
+    
+}
+
+figcaption {
+    
+    padding: .5rem;
+    font-family: futura, sans-serif;
+    font-size: .75rem;
+    
+    
+}
+
+hr {
+    margin: 1rem 0 auto;
+}
+
+details {
+    margin: 1.5rem;
+    font-size: 2rem;
+    font-style: bold;
+    font-family: futura;
+}
+
+ul {
+    font-size: 1.5rem;
+    font-family: helvetica;
+    font-style: normal;
+}
+
+footer {
+    font-size: 2rem;
+    font-family: futura;
+    background-color: rgba(0, 50, 90, .9);
+    overflow: hidden;
+    margin: 0 0 .5rem;
+} 
+
+.dropcap:first-letter {
+    font-size: 5rem;
+    font-weight: bold;
+    margin: -1.5rem 0rem 0rem 0;
+    float: left;
+    color: rgba(0, 50, 90, .9);
+}
+
+blockquote {
+    color: rgba(0, 50, 90, .9);
+    margin: 1.5rem 2rem 2rem 2rem;
+}
+
+blockquote p:before {
+     color: black;
+     content:"“";
+     font-size: 4rem;
+    float: left;
+    margin: -1.5rem 0 0;
+}
+
+blockquote p:after {
+    content: "”";
+    font-size: 2rem;
+    margin: -.25rem 1rem;
+    position: absolute;
+    color: black;
+}
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
